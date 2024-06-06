@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submitted</title>
+    <style>
+        body {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX450cM9wUnqJxLhwmYsjMNZzNjiGZrz6QBg&s');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color:black;
+        }
+
+        h1, h2, p {
+            margin: 10px;
+        }
+
+        h2 i, p i {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Submitted</h1>
+   
+    <h2><i>THANK YOU FOR JOINING......</i></h2>
+    <p><i>We will contact you soon.......</i></p>
+    
+    <script>
+        function showNotification(message, duration) {
+            alert(message);
+            if (duration > 0) {
+                setTimeout(function() {
+                    alert(""); // Dismiss the alert after the specified duration
+                }, duration);
+            }
+        }
+
+        // Example usage:
+        showNotification("Your Registration is successfully DONE.", 5000); // Show for 5 seconds
+    </script>
+</body>
+</html>

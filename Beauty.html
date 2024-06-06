@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup</title>
+    <style>
+        body {
+            background-image: url('https://st2.depositphotos.com/1010669/6452/i/450/depositphotos_64528451-stock-photo-brush-with-powder.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .navbar {
+            background: deeppink;
+            font-family: Calibri, sans-serif;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            font-size: 24px;
+            font-weight: 600;
+            color: black;
+            text-decoration: none;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .navbar ul li {
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar button a {
+            color: black;
+            font-weight: bold;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .navbar button {
+            border: none;
+            background: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 1200px;
+        }
+
+        .image-container {
+            margin: 10px;
+            text-align: center;
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            border: 3px solid deeppink;
+            border-radius: 10px;
+            transition: transform 0.4s;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        .image-container h3,
+        .image-container p {
+            font-family: cursive;
+            color: palevioletred;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .image-container {
+                flex: 1 1 calc(50% - 20px);
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar ul li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .image-container {
+                flex: 1 1 calc(100% - 20px);
+            }
+
+            .logo a {
+                font-size: 18px;
+            }
+
+            .navbar ul li a {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="Home.html">Elegantstyle Salon</a>
+        </div>
+        <ul>
+            <li><a href="Home.html" target="_blank">Home</a></li>
+            <li><a href="Beauty.html" target="_blank">Makeup</a></li>
+            <li><a href="hair.html" target="_blank">Hair</a></li>
+            <li><a href="Nails.html" target="_blank">Nail Shades</a></li>
+            <button><a href="booknow.html">Book Now</a></button>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSfwfpyb00JQap27nEh09REWQwPIo-AqUtXzbYzFcoxEj57U56Mb-l1xHUxwWtTYj2wY&usqp=CAU" alt="Indian Look">
+            <h3>Indian Look</h3>
+            <p>Total Price: $200</p>
+        </div>
+        <div class="image-container">
+            <img src="https://www.stylecraze.com/wp-content/uploads/2014/02/Top-10-International-Makeup-Artists-2.jpg" alt="Western Look">
+            <h3>Western Look</h3>
+            <p>Total Price: $230</p>
+        </div>
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSkPHDF4wIUxSh6lkHtZG0iZiePslWi8jnlt9KNsnJF-AO2vhmsmKU_0twIuWzHc-daBs&usqp=CAU" alt="Party Look">
+            <h3>Party Look</h3>
+            <p>Total Price: $180</p>
+        </div>
+        <!-- <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg6gy77mJrvbDKCcH9YKuFJKuAYEpbCfORpg&s" alt="Normal Look">
+            <h3>Normal Look</h3>
+            <p>Total Price: $140</p>
+        </div> -->
+        <!-- <div class="image-container">
+            <img src="https://annieshah.com/cdn/shop/files/Portfolio_2-_English_Bridal_Makeup.png?v=1707947544&width=830" alt="Dark Look">
+            <h3>Dark Look</h3>
+            <p>Total Price: $190</p>
+        </div> -->
+    </div>
+</body>
+
+</html>
