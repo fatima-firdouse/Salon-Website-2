@@ -1,7 +1,8 @@
 # 💇‍♀️ Salon Website 
 
-Welcome to the **Salon Website 2** 💅 – a beautifully designed and fully responsive salon website created using **HTML**, **CSS**, and **JavaScript**.  
-Perfect for showcasing salon services, pricing, and contact details in an elegant and user-friendly way.
+### Welcome to the **Salon Website 2** 💅 
+- a beautifully designed and fully responsive salon website created using **HTML**, **CSS**, and **JavaScript**.  
+- Perfect for showcasing salon services, pricing, and contact details in an elegant and user-friendly way.
 
 ---
 
