@@ -19,9 +19,22 @@ Perfect for showcasing salon services, pricing, and contact details in an elegan
 
 - **HTML5** – Structure and content  
 - **CSS3** – Styling and animations  
-- **JavaScript (Vanilla JS)** – Interactivity  
+- **JavaScript** – Interactivity  
 
 ---
+
+## 📂 Project Structure
+```plaintext
+Salon-Website/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+└── README.md
+
+```
+
+
 
 ## 🚀 Installation & Setup
 
