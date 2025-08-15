@@ -32,4 +32,4 @@ Perfect for showcasing salon services, pricing, and contact details in an elegan
 
 ## 💼 Author
 - Fatima Firdouse
-- 
+
